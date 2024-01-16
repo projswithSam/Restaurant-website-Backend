@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Dashboard</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the Dashboard</h1>
+    <p>You are logged in as <%= user.username %>
+    </p>
+
+    <img src="https://via.placeholder.com/300" alt="User Image" style="border-radius: 50%; margin-bottom: 20px;">
+
+    <a href="/logout">Logout</a>
+    <br>
+    <p>Want to go back to signup? <a href="/signup">Click here</a>.</p>
+  </div>
+</body>
+</html>

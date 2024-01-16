@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Restaurant Website</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the Restaurant Website</h1>
+
+    <form action="/signup" method="post">
+      <label for="signup-username">Username:</label>
+      <input type="text" id="signup-username" name="username" required>
+      
+      <label for="signup-password">Password:</label>
+      <input type="password" id="signup-password" name="password" required>
+
+      <button type="submit">Sign Up</button>
+    </form>
+
+    <form action="/login" method="post">
+      <label for="login-username">Username:</label>
+      <input type="text" id="login-username" name="username" required>
+      
+      <label for="login-password">Password:</label>
+      <input type="password" id="login-password" name="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+
+    <p>Don't have an account? <a href="/signup">Sign up here</a>.</p>
+  </div>
+</body>
+</html>
